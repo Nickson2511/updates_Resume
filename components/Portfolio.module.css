@@ -1,0 +1,25 @@
+.portfolioContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add space between items */
+  justify-content: center; /* Center the items */
+}
+
+.portfolioLink {
+  color: #556b2f; /* A strong, earthy color */
+  /* Keep this color for good contrast */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make text bold */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Remove hover effect */
+.portfolioLink:hover {
+  color: #556b2f; /* A strong, earthy color */
+}
+
+.portfolioLink img {
+  display: block; /* Ensure images are treated as block elements */
+ 
+  margin-left: 20px; /* Space between image and text */
+}
